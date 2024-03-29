@@ -1,20 +1,21 @@
 import './Navbar.css';
 
-const styles = {
-    header: {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '10vh',
-        backgroundColor: 'black',
-        color: 'white',
-    },
-    }
-
 function Navbar() {
     return (
-        <header style={styles.Navbar}>
+        <header className='Navbar'>
             <h1>Will Schickler</h1>
+            <section>
+                <h2>About Me</h2>
+            </section>
+            <section>
+                <h2>Portfolio</h2>
+            </section>
+            <section>
+                <h2>Resume</h2>
+            </section>
+            <section>
+                <h2>Contact Me</h2>
+            </section>
         </header>
     )
 }

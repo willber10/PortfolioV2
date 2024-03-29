@@ -1,0 +1,12 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around; /* Change this line */
+    align-items: center;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
