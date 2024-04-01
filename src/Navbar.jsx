@@ -1,14 +1,16 @@
+
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <header className='Navbar'>
             <h1>Will Schickler</h1>
             <section>
-                <h2>About Me</h2>
+                <Link to="/">About Me</Link>
             </section>
             <section>
-                <h2>Portfolio</h2>
+                <Link to="/portfolio">Portfolio</Link>
             </section>
             <section>
                 <h2>
@@ -22,4 +24,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
