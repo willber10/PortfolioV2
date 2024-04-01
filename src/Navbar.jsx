@@ -11,7 +11,9 @@ function Navbar() {
                 <h2>Portfolio</h2>
             </section>
             <section>
-                <h2>Resume</h2>
+                <h2>
+                    <a href="https://docs.google.com/document/d/16J6WLIYTyB7LOkfdpQ_9EBzakdRpgNv02wsBRo13spc/edit?usp=sharing" target="_blank" download>Resume</a>
+                </h2>
             </section>
             <section>
                 <h2>Contact Me</h2>
