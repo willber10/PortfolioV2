@@ -1,8 +1,19 @@
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+    const navbarStyle = {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: '20px',
+        backgroundColor: '#333',
+        color: '#fff',
+        fontFamily: 'Arial, sans-serif',
+    };
+
+
     return (
-        <header className='Navbar'>
+        <header style={navbarStyle}>
             <h1>Will Schickler</h1>
             <section>
                 <Link to="/">About Me</Link>
