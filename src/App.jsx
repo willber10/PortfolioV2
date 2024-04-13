@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
+            <Footer />
         </Router>
     );
 }
