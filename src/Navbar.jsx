@@ -8,6 +8,7 @@ function Navbar() {
         position: 'fixed',
         top: '0',
         width: '100%',
+        height: '100px',
         margin: '0 auto',
         left: '0',
         right: '0',
