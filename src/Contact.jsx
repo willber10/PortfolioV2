@@ -52,6 +52,7 @@ const Contact = () => {
         <div style={formContainerStyle}>
           <h2>Contact Me</h2>
           <p>Want to work together on a future project? Fill out the form below and lets build some thing fun!</p>
+          <p>This form is not currently functional. Please reach out via Email! Willberschickler@gmail.com</p> 
           <form onSubmit={handleSubmit}>
             <div style={formFieldStyle}>
               <label>
