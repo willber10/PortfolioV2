@@ -19,6 +19,14 @@ function AboutMe() {
     };
   }, []);
 
+  const parentContainerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh', // This makes sure the parent container takes up the whole viewport height
+  };
+
+
   const aboutMeStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -29,7 +37,7 @@ function AboutMe() {
     backgroundSize: 'contain',
     borderRadius: '15px',
     boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-    maxWidth: '800px',
+    maxWidth: '70%',
     alignItems: 'center',
     justifyContent: 'center', // Add this line to center the content horizontally
   };
@@ -43,6 +51,7 @@ function AboutMe() {
   };
 
   return (
+  <div style={parentContainerStyle}>
     <div style={aboutMeStyle}>
       <img src={PersonalPhoto} alt="Will Schickler" style={imageStyle} />
       <div>
@@ -53,6 +62,7 @@ function AboutMe() {
         </p>
       </div>
     </div>
+  </div>
 
   );
 
